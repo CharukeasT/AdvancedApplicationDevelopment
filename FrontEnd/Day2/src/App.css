@@ -1,0 +1,10 @@
+body {
+  height: auto;
+  min-height: 100vh;
+  background: linear-gradient(rgb(182, 45, 246),rgb(37, 241, 231));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button:hover{
+  cursor: pointer;
+}
