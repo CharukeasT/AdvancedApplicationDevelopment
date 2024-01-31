@@ -1,0 +1,36 @@
+.eventcardcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.eventcard{
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    /* width: 30%; */
+    background-color: #fff;
+    padding: 20px;
+    border: 7px solid rgba(155, 89, 236, 0.373);
+    border-radius: 25px;
+    margin-top: 50px;
+}span{
+    font-size: 30px;
+}
+.high{
+    font-style: italic;
+    font-weight: bold;
+}
+.button4{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(140.21deg, #154392 4.16%, #2e99e6 94.74%);
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+}
+.edit-delete{
+    font-size: 30px;
+    color: white;
+}
+.edit-delete:hover{
+    color: rgb(119, 255, 0);
+}

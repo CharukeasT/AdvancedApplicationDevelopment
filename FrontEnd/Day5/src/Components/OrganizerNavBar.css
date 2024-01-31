@@ -1,0 +1,111 @@
+.navbox2{
+    background: linear-gradient(140.21deg, #154392 4.16%, #2e99e6 94.74%);
+    height: 50px;
+    border-radius: 10px;
+    font-style: italic;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button3{
+    margin: 0px 10px;
+    background-color: #24afef00;
+    border: none;
+}
+.button3 a:hover{
+    color:#21f4d4;
+}
+.link3{
+    font-style: italic;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+}
+.navbuttons2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:0;
+    margin-right: 25px;
+}
+.logout3{
+    margin: 0px 10px;
+    background-color: #ff0000e0;
+    border: none;
+    border-radius: 10px;
+}
+.logout4{
+    font-style: italic;
+    text-decoration: none;
+    font-size: 22px;
+    color:rgb(255, 255, 255);
+}
+.logout4:hover{
+    color: #21f4d4;
+}
+@media only screen and (min-width: 1325px){
+    .navbuttons2{
+        display: flex;
+        flex-direction: row;
+        margin-right: 25px;
+    }
+    .dropdown2{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1325px){
+    .dropdown-content2{
+        display: flex;
+        flex-direction: row;
+        margin-right: 25px;
+    }
+    .button3{
+        height: 40px;
+        margin: 0px 10px;
+    }
+    .logout3{
+        margin: 10px 10px;
+    }
+    .button-container2 {
+        position: relative;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        }
+        .dropbtn-image2{
+            width: 50px;
+            height: 50px;
+            background-image: url("../assets/Menu.png");
+            background-color: #ffffff00;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+         .dropdown2 {
+          position: relative;
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+        }
+        
+        .dropdown-content2 {
+          display: none;
+          position: absolute;
+          background: linear-gradient(140.21deg, #154392 4.16%, #2e99e6 94.74%);
+          min-width: 190px;
+          z-index: 1;
+          margin-right: 0px;
+          right:0;
+        }
+        .dropdown-content2 a:hover {
+            color:#21f4d4;}
+        
+        .dropdown2:hover .dropdown-content2 {
+          display: block;
+        }
+        .navbuttons2{
+            display: none;
+        }
+}
