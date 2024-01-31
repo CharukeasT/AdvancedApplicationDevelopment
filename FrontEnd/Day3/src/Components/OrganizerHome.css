@@ -1,0 +1,14 @@
+.organizerlogocontainer{
+    display: flex;
+    justify-content: center;
+}
+.organizerlogo{
+    align-self: center;
+    margin-top: 150px;
+    max-width: 800px;
+    /* width: auto; */
+    height: 800px;
+    background-image: url("../assets/Organizer.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}

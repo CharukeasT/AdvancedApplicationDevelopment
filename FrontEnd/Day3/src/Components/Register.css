@@ -1,0 +1,50 @@
+.formcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.formbox{
+    height: auto;
+    width: 700px;
+    background: linear-gradient(140.21deg, #154392 4.16%, #2e99e6 94.74%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(255, 255, 255);
+    line-height: 5px;
+}
+.topic{
+    font-size: 30px;
+}
+.error{
+    font-size: 20px;
+    color: rgb(247, 83, 83);
+}
+.input,.select{
+    height: 40px;
+    min-width: 350px;
+    width: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: none;
+}
+.button{
+    height: 40px;
+    width: 150px;
+    font-size: 22px;
+    margin-top: 20px;
+    background: linear-gradient(to right,rgb(63, 243, 63),rgb(247, 247, 23));
+    color: rgb(192, 17, 255);
+    border-radius: 15px;
+    border: none;
+}
+.button:hover{
+    background: linear-gradient(to left,rgb(63, 243, 63),rgb(247, 247, 23));
+}
+.h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
