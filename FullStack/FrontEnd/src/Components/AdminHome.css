@@ -1,0 +1,13 @@
+.adminlogocontainer{
+    display: flex;
+    justify-content: center;
+}
+.adminlogo{
+    margin-top: 150px;
+    max-width: 400px;
+    width: auto;
+    height: 400px;
+    background-image: url("../assets/Admin.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
